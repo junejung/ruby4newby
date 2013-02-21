@@ -1,0 +1,28 @@
+html
+  head
+    title Ruby4newby
+    link rel="stylesheet" href="/stylesheets/style.css"
+    body
+      div#roby_intro
+        section#chapter
+          h1 Difference JS vs Ruby!
+        section#code
+          div#rbEditor
+            |
+              def method_name(argument)
+                str = "string"
+                [1,2,3,4].pop
+              end
+          div#jsEditor
+            |
+              var functionName = function(argument){
+                var str = "string";
+                return [1,2,3,4].pop();
+              }
+          div#actions
+            a href="/" id="previous" previous<<
+            a href="/" id="submit" submit
+            a href="/" id="next" next>>
+    script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"
+    script src="http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js"
+    script src="/javascripts/editor.js"

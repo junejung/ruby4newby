@@ -1,0 +1,28 @@
+Array
+  -Assignment
+    a = [...]
+    a, b = [....]
+    a, *b = [....]
+  -Basic Method
+    array = Array.new
+    array.class
+    array.size
+    array << elem
+  -Array vs range
+    (1..5).class != Array
+    (1...5).to_a
+    (1..5).to_a
+    array[0..2]
+    array[0..-1]
+    array.pop
+    array.unshift
+    array.shift
+  -Dice
+    def dic_roll
+      [1,2,3,4,5,6].suffle
+    end
+Hash
+  -Create Hash
+    h = Hash.new
+    h.class
+    h.size

@@ -1,0 +1,63 @@
+body{
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Droid Sans Mono', 'Consolas', monospace;
+    background-color: white;
+}
+#ruby_koans{
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#chapter {
+  position: absolute;
+  font-size: 14px;
+  width: 45%;
+  height: 100%;
+}
+h1{
+  text-align: center;
+  color: #dc322f;
+}
+#code{
+  position: absolute;
+  top: 10px;
+  float: left;
+  width: 50%;
+  height: 100%;
+  left: 50%
+}
+#jsEditor { 
+  font-size: 15px;
+  left: 0;
+  right: 0;
+  top: 10px;
+  position: absolute;
+  height: 250px;
+  width: 100%;
+  overflow: none;
+}
+#rbEditor {
+  font-size: 15px;
+  left: 0;
+  right: 0;
+  top: 270px;
+  height: 250px;
+  width: 100%;
+  overflow: none;
+}
+#actions{
+  font-size: 13px;
+  top: 440px;
+  position: relative;
+  overflow: none;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: #cb4b16;
+}
+a:hover{
+  color: #2aa198;
+}
+#previous, #submit, #next{
+  margin: 25px;
+}
